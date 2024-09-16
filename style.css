@@ -84,7 +84,7 @@ body.dark-mode .whole-thing-container {
   grid-template-rows: 1fr 4fr;
 }
 .list-box :first-child {
-  font-size: 2em;
+  font-size: large;
   margin-top: 1em;
 }
 
