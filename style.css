@@ -63,14 +63,14 @@ body.dark-mode .whole-thing-container {
 }
 /* container with boxes*/
 .container-main {
-  margin-top: 4em;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(20em, 1fr));
-  column-gap: 1.5em;
-  row-gap: 1.5em;
+    margin-top: 4em;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19em, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(25em, 1fr));
+    column-gap: 1.5em;
+    row-gap: 1.5em;
 }
 
 .list-box {
@@ -84,7 +84,7 @@ body.dark-mode .whole-thing-container {
   grid-template-rows: 1fr 4fr;
 }
 .list-box :first-child {
-  font-size: large;
+  font-size: 2em;
   margin-top: 1em;
 }
 
