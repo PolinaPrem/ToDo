@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>ToDo list for studying</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <div class="whole-thing-container">
+    <div class="container-main-header">
+      <div class="toggle">
+        <input type="checkbox" role="switch" id="themeToggle">
+      </div>
+      <div class="header">
+        <h1>Start typing to add a task</h1>
+      </div>
+    <div class="container-main" id="container-main">
+      <div id="context-menu" class="context-menu">
+        <button class="context-menu-item" id="rename">Rename</button>
+        <button class="context-menu-item" id="delete">Delete</button>
+      </div> 
+<button class="list-box">
+  <p>TO DO Today</p>
+</button>
+<button class="list-box">
+  <p>To do weekly</p>
+</button>
+<button class="list-box">
+  <p>Cooking list</p>
+</button>
+
+
+
+    </div>
+  </div>
+
+    <div class="input-panel">
+      <input type="text" class='input' id='text-input' placeholder="Create a new list of things..." >
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
